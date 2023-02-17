@@ -56,10 +56,10 @@ app.post("/api/notes", (req, res) => {
 });
 
 // app.delete("/api/notes/:id", (req, res) => res.send(`DELETE route`));
-app.delete("/api/notes/:id", (req, res) => {
-  res.send("Delete request called");
-  deleteNote();
-});
+// app.delete("/api/notes/:id", (req, res) => {
+//   res.send("Delete request called");
+//   deleteNote();
+// });
 
 app.listen(PORT, () =>
   console.log(`App listening at http://localhost:${PORT} 🚀`)
